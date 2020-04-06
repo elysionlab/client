@@ -1,0 +1,36 @@
+HKCR
+{
+	WebhardWebControl.WebBBS.1 = s 'Filerun Web Control'
+	{
+		CLSID = s '{C037A764-74D9-4faf-B8E0-6F2CBEABA6CB}'
+		'Insertable'
+	}
+	WebhardWebControl.WebBBS = s 'Filerun Web Control'
+	{
+		CLSID = s '{C037A764-74D9-4faf-B8E0-6F2CBEABA6CB}'
+		CurVer = s 'WebhardWebControl.WebBBS.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {C037A764-74D9-4faf-B8E0-6F2CBEABA6CB} = s 'Filerun Web Control'
+		{
+			ProgID = s 'WebhardWebControl.WebBBS.1'
+			VersionIndependentProgID = s 'WebhardWebControl.WebBBS'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			val AppID = s '%APPID%'
+			ForceRemove 'Control'
+			ForceRemove 'Insertable'
+			ForceRemove 'ToolboxBitmap32' = s '%MODULE%, 103'
+			'MiscStatus' = s '0'
+			{
+			    '1' = s '%OLEMISC%'
+			}
+			'TypeLib' = s '{C037A762-74D9-4faf-B8E0-6F2CBEABA6CB}'
+			'Version' = s '1.0'
+		}
+	}
+}

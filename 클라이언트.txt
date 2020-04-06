@@ -1,0 +1,40 @@
+
+
+개발환경
+1. 원본은 최소 소스.
+2. Filerun_candle_vgrid.zip: 최근 변경 소스
+3. IDE : visualstudio 2005 설치 (2005 설치파일은 메일로 전달받은게 있음. 찾을 수 없으면 상상의눈에 부탁하면 파일 보내줌)
+4. 환경설정이나 설치 환경은 상상의눈쪽에 문의하면 빠르게 알 수 있음
+5. 테스트 작업 등은 간략하게 설명함. 상세한 내용은 상상의눈에게 문의가 빠름
+테스트 케이스를 일일이 설명하기에는 부족함
+
+소스 변경 작업
+1. 압축해제 후Filerun_candle_vgrid\Webhard\src_client.sln 파일을 연다
+2. '//저작권 제한 작업' 텍스트를 전체 검색하면 저작권 관련된 코드가 보임
+3. 현재는 저작권 자료의 다운로드가 제한되어 있도록 설정되었음
+
+테스트
+1. 클라이언트모듈을 정상적으로 설치한 후 C:\Program Files (x86)\Filerun 내 FilerunDown.exe, FilerunUp.exe파일을 교체하여 테스트
+
+배포
+1. 배포는 상상의눈에 문의가 빠름
+2. 문의해야 될 내용
+  > 빌드된 결과물 위치
+  > 빌드 후 컨버팅해야되는 파일 목록 문의
+  > 인증서
+3. 문의 전 아래 참고(내용이 복잡하여 정확하지 않을 수 있음, 해당 내용을 참고하여 문의)
+  > 빌드 후 결과물은 Filerun_candle_vgrid\Webhard\InstallFiles과 Filerun_candle_vgrid\Webhard\Bin 에 저장됨
+  > Filerun_candle_vgrid\Webhard\InstallFiles 안에 빌드 후 nsi 파일 실행
+  > Filerun_candle_vgrid\Webhard\InstallFiles 안에 zsetup.bat 와 z실행파일인증서맵핑.bat 이 있는데 해당 파일을 실행해줘야 함
+  > 위 bat(배치)파일을 열어보면 인증관련 경로도 확인할 수 있음
+     1) 인증관련은 아래와 같은데 옵션 /f "www.filerun.co.kr.pfx"이 실제 인증서 내용, 참고하면 됨
+     2) 예 - signtool sign /t http://timestamp.verisign.com/scripts/timestamp.dll /d "파일런 SETUP" /du "http://filerun.co.kr/" /f "www.filerun.co.kr.pfx" -p "dpffl0902!"   ./Filerun.exe
+     2) 인증서는 메일을 찾아보면 확인할 수 있음
+
+
+  * 위 내용의 순서와 파일 위치 등이 정확하지 않을 수 있으니 상상의눈에 문의(어렵지 않음)
+
+
+
+
+

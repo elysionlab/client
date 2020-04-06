@@ -1,0 +1,12 @@
+[version]
+signature="$CHICAGO$
+AdvancedINF=2.0
+
+[Add.Code]
+FilerunWebControl.dll=FilerunWebControl.dll
+
+[FilerunWebControl.dll]
+file-win32-x86=thiscab
+RegisterServer=yes
+clsid={C037A764-74D9-4faf-B8E0-6F2CBEABA6CB}
+FileVersion=1,0,0,1

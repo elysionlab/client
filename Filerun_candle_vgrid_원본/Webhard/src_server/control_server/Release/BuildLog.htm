@@ -1,0 +1,195 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=ks_c_5601-1987">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=arial size=+3>
+Build Log
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- Build started: Project: control_server, Configuration: Release|Win32 -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Command Lines
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Creating temporary file "f:\project_2008\Filerun_candle_kgrid\Webhard\src_server\control_server\Release\RSP000001.rsp" with contents
+[
+/O2 /I "../../Common" /I "../../../__Common/__unity[2]/server_control" /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_UPSERVER" /D "_MBCS" /FD /EHsc /MD /GS /Fo"Release/" /Fd"Release/vc70.pdb" /W3 /c /Wp64 /Zi /TP
+"\project_2008\Filerun_candle_kgrid\__Common\__unity[2]\mmsv_FtpClient.cpp"
+"\project_2008\Filerun_candle_kgrid\__Common\__unity[2]\DBbase.cpp"
+"\project_2008\Filerun_candle_kgrid\__Common\__unity[2]\server_control\src_server.cpp"
+"\project_2008\Filerun_candle_kgrid\__Common\__unity[2]\server_control\mmsv_User.cpp"
+"\project_2008\Filerun_candle_kgrid\__Common\__unity[2]\server_control\mmsv_Queue.cpp"
+"\project_2008\Filerun_candle_kgrid\__Common\__unity[2]\server_control\mmsv_Aio_Daemon.cpp"
+"\project_2008\Filerun_candle_kgrid\__Common\__unity[2]\server_control\mmsv_Aio_Acceptor.cpp"
+"\project_2008\Filerun_candle_kgrid\__Common\__unity[2]\server_control\Hash_Map_Manager_Int.cpp"
+"\project_2008\Filerun_candle_kgrid\__Common\__unity[2]\server_control\DBCtrl_Up_BBS.cpp"
+"\project_2008\Filerun_candle_kgrid\__Common\__unity[2]\server_control\DBCtrl_FileServer.cpp"
+"\project_2008\Filerun_candle_kgrid\__Common\__unity[2]\server_control\DBCtrl_Down_BBS.cpp"
+"\project_2008\Filerun_candle_kgrid\__Common\__unity[2]\server_control\DBCtrl_Common.cpp"
+]
+Creating command line "cl.exe @f:\project_2008\Filerun_candle_kgrid\Webhard\src_server\control_server\Release\RSP000001.rsp /nologo"
+Creating temporary file "f:\project_2008\Filerun_candle_kgrid\Webhard\src_server\control_server\Release\RSP000002.rsp" with contents
+[
+/OUT:"../../Bin/Filerun_Up.exe" /INCREMENTAL:NO /NOLOGO /DEBUG /PDB:"Release/control_server.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /MACHINE:X86 ACE.lib libmySQL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "\project_2008\Filerun_candle_kgrid\Default Include\Ace 5.4\ACE_wrappers\lib\ACE.lib" "\project_2008\Filerun_candle_kgrid\Default Include\mysql\v 4.1\lib\release\libmysql.lib"
+.\Release\DBCtrl_Common.obj
+.\Release\DBCtrl_Down_BBS.obj
+.\Release\DBCtrl_FileServer.obj
+.\Release\DBCtrl_Up_BBS.obj
+.\Release\Hash_Map_Manager_Int.obj
+.\Release\mmsv_Aio_Acceptor.obj
+.\Release\mmsv_Aio_Daemon.obj
+.\Release\mmsv_Queue.obj
+.\Release\mmsv_User.obj
+.\Release\src_server.obj
+.\Release\DBbase.obj
+.\Release\mmsv_FtpClient.obj
+]
+Creating command line "link.exe @f:\project_2008\Filerun_candle_kgrid\Webhard\src_server\control_server\Release\RSP000002.rsp"
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Output Window
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Compiling...
+mmsv_FtpClient.cpp
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdlib.inl(87) : warning C4312: 'type cast' : conversion from 'int' to 'void *' of greater size
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdlib.inl(100) : warning C4312: 'type cast' : conversion from 'int' to 'void *' of greater size
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(221) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(254) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(285) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(675) : warning C4311: 'type cast' : pointer truncation from 'ACE_HANDLE' to 'long'
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdio.inl(643) : warning C4311: 'type cast' : pointer truncation from 'ACE_HANDLE' to 'long'
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_time.inl(414) : warning C4244: 'argument' : conversion from 'const time_t' to 'long', possible loss of data
+DBbase.cpp
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdlib.inl(87) : warning C4312: 'type cast' : conversion from 'int' to 'void *' of greater size
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdlib.inl(100) : warning C4312: 'type cast' : conversion from 'int' to 'void *' of greater size
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(221) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(254) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(285) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(675) : warning C4311: 'type cast' : pointer truncation from 'ACE_HANDLE' to 'long'
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdio.inl(643) : warning C4311: 'type cast' : pointer truncation from 'ACE_HANDLE' to 'long'
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_time.inl(414) : warning C4244: 'argument' : conversion from 'const time_t' to 'long', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\SString.i(176) : warning C4244: 'return' : conversion from '__w64 int' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\SString.i(187) : warning C4244: 'return' : conversion from '__w64 int' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\Mem_Map.i(214) : warning C4267: '=' : conversion from 'size_t' to 'ssize_t', possible loss of data
+src_server.cpp
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdlib.inl(87) : warning C4312: 'type cast' : conversion from 'int' to 'void *' of greater size
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdlib.inl(100) : warning C4312: 'type cast' : conversion from 'int' to 'void *' of greater size
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(221) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(254) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(285) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(675) : warning C4311: 'type cast' : pointer truncation from 'ACE_HANDLE' to 'long'
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdio.inl(643) : warning C4311: 'type cast' : pointer truncation from 'ACE_HANDLE' to 'long'
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_time.inl(414) : warning C4244: 'argument' : conversion from 'const time_t' to 'long', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\SString.i(176) : warning C4244: 'return' : conversion from '__w64 int' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\SString.i(187) : warning C4244: 'return' : conversion from '__w64 int' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\Mem_Map.i(214) : warning C4267: '=' : conversion from 'size_t' to 'ssize_t', possible loss of data
+mmsv_User.cpp
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdlib.inl(87) : warning C4312: 'type cast' : conversion from 'int' to 'void *' of greater size
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdlib.inl(100) : warning C4312: 'type cast' : conversion from 'int' to 'void *' of greater size
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(221) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(254) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(285) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(675) : warning C4311: 'type cast' : pointer truncation from 'ACE_HANDLE' to 'long'
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdio.inl(643) : warning C4311: 'type cast' : pointer truncation from 'ACE_HANDLE' to 'long'
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\Mem_Map.i(214) : warning C4267: '=' : conversion from 'size_t' to 'ssize_t', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_time.inl(414) : warning C4244: 'argument' : conversion from 'const time_t' to 'long', possible loss of data
+\project_2008\Filerun_candle_kgrid\__Common\__unity[2]\server_control\mmsv_User.cpp(747) : warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+\project_2008\Filerun_candle_kgrid\__Common\__unity[2]\server_control\mmsv_User.cpp(748) : warning C4267: '=' : conversion from 'size_t' to 'unsigned int', possible loss of data
+mmsv_Queue.cpp
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdlib.inl(87) : warning C4312: 'type cast' : conversion from 'int' to 'void *' of greater size
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdlib.inl(100) : warning C4312: 'type cast' : conversion from 'int' to 'void *' of greater size
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(221) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(254) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(285) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(675) : warning C4311: 'type cast' : pointer truncation from 'ACE_HANDLE' to 'long'
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdio.inl(643) : warning C4311: 'type cast' : pointer truncation from 'ACE_HANDLE' to 'long'
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_time.inl(414) : warning C4244: 'argument' : conversion from 'const time_t' to 'long', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\Mem_Map.i(214) : warning C4267: '=' : conversion from 'size_t' to 'ssize_t', possible loss of data
+\project_2008\Filerun_candle_kgrid\__Common\__unity[2]\server_control\mmsv_Queue.cpp(322) : warning C4065: switch statement contains 'default' but no 'case' labels
+mmsv_Aio_Daemon.cpp
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdlib.inl(87) : warning C4312: 'type cast' : conversion from 'int' to 'void *' of greater size
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdlib.inl(100) : warning C4312: 'type cast' : conversion from 'int' to 'void *' of greater size
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(221) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(254) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(285) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(675) : warning C4311: 'type cast' : pointer truncation from 'ACE_HANDLE' to 'long'
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdio.inl(643) : warning C4311: 'type cast' : pointer truncation from 'ACE_HANDLE' to 'long'
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_time.inl(414) : warning C4244: 'argument' : conversion from 'const time_t' to 'long', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\Mem_Map.i(214) : warning C4267: '=' : conversion from 'size_t' to 'ssize_t', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\SString.i(176) : warning C4244: 'return' : conversion from '__w64 int' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\SString.i(187) : warning C4244: 'return' : conversion from '__w64 int' to 'int', possible loss of data
+mmsv_Aio_Acceptor.cpp
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdlib.inl(87) : warning C4312: 'type cast' : conversion from 'int' to 'void *' of greater size
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdlib.inl(100) : warning C4312: 'type cast' : conversion from 'int' to 'void *' of greater size
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(221) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(254) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(285) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(675) : warning C4311: 'type cast' : pointer truncation from 'ACE_HANDLE' to 'long'
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdio.inl(643) : warning C4311: 'type cast' : pointer truncation from 'ACE_HANDLE' to 'long'
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\Mem_Map.i(214) : warning C4267: '=' : conversion from 'size_t' to 'ssize_t', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_time.inl(414) : warning C4244: 'argument' : conversion from 'const time_t' to 'long', possible loss of data
+\project_2008\Filerun_candle_kgrid\__Common\__unity[2]\server_control\mmsv_Aio_Acceptor.cpp(36) : warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+Hash_Map_Manager_Int.cpp
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdlib.inl(87) : warning C4312: 'type cast' : conversion from 'int' to 'void *' of greater size
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdlib.inl(100) : warning C4312: 'type cast' : conversion from 'int' to 'void *' of greater size
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(221) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(254) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(285) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(675) : warning C4311: 'type cast' : pointer truncation from 'ACE_HANDLE' to 'long'
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdio.inl(643) : warning C4311: 'type cast' : pointer truncation from 'ACE_HANDLE' to 'long'
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\Mem_Map.i(214) : warning C4267: '=' : conversion from 'size_t' to 'ssize_t', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_time.inl(414) : warning C4244: 'argument' : conversion from 'const time_t' to 'long', possible loss of data
+DBCtrl_Up_BBS.cpp
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdlib.inl(87) : warning C4312: 'type cast' : conversion from 'int' to 'void *' of greater size
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdlib.inl(100) : warning C4312: 'type cast' : conversion from 'int' to 'void *' of greater size
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(221) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(254) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(285) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(675) : warning C4311: 'type cast' : pointer truncation from 'ACE_HANDLE' to 'long'
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdio.inl(643) : warning C4311: 'type cast' : pointer truncation from 'ACE_HANDLE' to 'long'
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_time.inl(414) : warning C4244: 'argument' : conversion from 'const time_t' to 'long', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\Mem_Map.i(214) : warning C4267: '=' : conversion from 'size_t' to 'ssize_t', possible loss of data
+\project_2008\Filerun_candle_kgrid\__Common\__unity[2]\server_control\DBCtrl_Up_BBS.cpp(184) : warning C4101: 'n64Idx' : unreferenced local variable
+\project_2008\Filerun_candle_kgrid\__Common\__unity[2]\server_control\DBCtrl_Up_BBS.cpp(1196) : warning C4101: 'category_Cashing_Tablename' : unreferenced local variable
+\project_2008\Filerun_candle_kgrid\__Common\__unity[2]\server_control\DBCtrl_Up_BBS.cpp(1195) : warning C4101: 'category_Cashing_code' : unreferenced local variable
+\project_2008\Filerun_candle_kgrid\__Common\__unity[2]\server_control\DBCtrl_Up_BBS.cpp(2018) : warning C4101: 'return_value' : unreferenced local variable
+\project_2008\Filerun_candle_kgrid\__Common\__unity[2]\server_control\DBCtrl_Up_BBS.cpp(2017) : warning C4101: 'category_Cashing_Tablename' : unreferenced local variable
+\project_2008\Filerun_candle_kgrid\__Common\__unity[2]\server_control\DBCtrl_Up_BBS.cpp(2016) : warning C4101: 'category_Cashing_code' : unreferenced local variable
+\project_2008\Filerun_candle_kgrid\__Common\__unity[2]\server_control\DBCtrl_Up_BBS.cpp(2015) : warning C4101: 'Category_code' : unreferenced local variable
+DBCtrl_FileServer.cpp
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdlib.inl(87) : warning C4312: 'type cast' : conversion from 'int' to 'void *' of greater size
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdlib.inl(100) : warning C4312: 'type cast' : conversion from 'int' to 'void *' of greater size
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(221) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(254) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(285) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(675) : warning C4311: 'type cast' : pointer truncation from 'ACE_HANDLE' to 'long'
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdio.inl(643) : warning C4311: 'type cast' : pointer truncation from 'ACE_HANDLE' to 'long'
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_time.inl(414) : warning C4244: 'argument' : conversion from 'const time_t' to 'long', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\Mem_Map.i(214) : warning C4267: '=' : conversion from 'size_t' to 'ssize_t', possible loss of data
+DBCtrl_Down_BBS.cpp
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdlib.inl(87) : warning C4312: 'type cast' : conversion from 'int' to 'void *' of greater size
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdlib.inl(100) : warning C4312: 'type cast' : conversion from 'int' to 'void *' of greater size
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(221) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(254) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(285) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(675) : warning C4311: 'type cast' : pointer truncation from 'ACE_HANDLE' to 'long'
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdio.inl(643) : warning C4311: 'type cast' : pointer truncation from 'ACE_HANDLE' to 'long'
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_time.inl(414) : warning C4244: 'argument' : conversion from 'const time_t' to 'long', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\Mem_Map.i(214) : warning C4267: '=' : conversion from 'size_t' to 'ssize_t', possible loss of data
+DBCtrl_Common.cpp
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdlib.inl(87) : warning C4312: 'type cast' : conversion from 'int' to 'void *' of greater size
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdlib.inl(100) : warning C4312: 'type cast' : conversion from 'int' to 'void *' of greater size
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(221) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(254) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(285) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(675) : warning C4311: 'type cast' : pointer truncation from 'ACE_HANDLE' to 'long'
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdio.inl(643) : warning C4311: 'type cast' : pointer truncation from 'ACE_HANDLE' to 'long'
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_time.inl(414) : warning C4244: 'argument' : conversion from 'const time_t' to 'long', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\Mem_Map.i(214) : warning C4267: '=' : conversion from 'size_t' to 'ssize_t', possible loss of data
+Generating Code...
+f:\project_2008\filerun_candle_kgrid\__common\__unity[2]\server_control\mmsv_aio_acceptor.cpp(223) : warning C4715: 'mmsv_Acceptor::connect_manager' : not all control paths return a value
+Linking...
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Results
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+Build log was saved at "file://f:\project_2008\Filerun_candle_kgrid\Webhard\src_server\control_server\Release\BuildLog.htm"
+control_server - 0 error(s), 125 warning(s)</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=arial size=+2>
+</font></table></body></html>

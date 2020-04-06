@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "up_client", "src_client\up_client\up_client.vcproj", "{8776772E-6ABD-49E2-8F91-DF118C81D08F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "down_client", "src_client\down_client\down_client.vcproj", "{1ED9F5B6-F164-4171-9A27-B720DDF00D5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8776772E-6ABD-49E2-8F91-DF118C81D08F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8776772E-6ABD-49E2-8F91-DF118C81D08F}.Debug|Win32.Build.0 = Debug|Win32
+		{8776772E-6ABD-49E2-8F91-DF118C81D08F}.Release|Win32.ActiveCfg = Release|Win32
+		{8776772E-6ABD-49E2-8F91-DF118C81D08F}.Release|Win32.Build.0 = Release|Win32
+		{1ED9F5B6-F164-4171-9A27-B720DDF00D5E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1ED9F5B6-F164-4171-9A27-B720DDF00D5E}.Debug|Win32.Build.0 = Debug|Win32
+		{1ED9F5B6-F164-4171-9A27-B720DDF00D5E}.Release|Win32.ActiveCfg = Release|Win32
+		{1ED9F5B6-F164-4171-9A27-B720DDF00D5E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

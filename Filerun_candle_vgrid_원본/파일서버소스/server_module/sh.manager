@@ -1,0 +1,7 @@
+#!/bin/sh
+chk=`ps ax | awk '/manager/ {print $5}' | grep -c /usr/local/storage/manager`
+if [ "$chk" = "0" ]
+then
+/usr/local/storage/manager &
+fi
+exit 0

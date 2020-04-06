@@ -1,0 +1,1 @@
+cabarc n FilerunWebControl.CAB ..\bin\FilerunWebControl.dll ..\bin\FilerunWebControl.inf

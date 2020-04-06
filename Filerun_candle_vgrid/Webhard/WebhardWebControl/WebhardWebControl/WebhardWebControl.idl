@@ -1,0 +1,78 @@
+// WebhardWebControl.idl : WebhardWebControl의 IDL 소스입니다.
+//
+
+// 이 파일은 MIDL 도구에 의해 처리되어
+// 형식 라이브러리(WebhardWebControl.tlb) 및 마샬링 코드가 생성됩니다.
+
+#include "olectl.h"
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(C037A761-74D9-4faf-B8E0-6F2CBEABA6CB),
+	dual,
+	nonextensible,
+	helpstring("IWebBBS 인터페이스"),
+	pointer_default(unique)
+]
+interface IWebBBS : IDispatch{
+	[id(1), helpstring("메서드 CheckInstall")] HRESULT CheckInstall(void);
+	[id(2), helpstring("메서드 AllowPopUp")] HRESULT AllowPopUp([in] BSTR strTemp);
+	[id(3), helpstring("메서드 MakeShortCut")] HRESULT MakeShortCut([in] BSTR strURL);
+	
+	[id(4), helpstring("메서드 ShowDlgFile")] HRESULT ShowDlgFile(void);	
+	[id(5), helpstring("메서드 ShowDlgFolder")] HRESULT ShowDlgFolder(void);	
+
+	//20090304 해시값 추가, jyh
+	//[id(6), helpstring("메서드 SelectComplete")] HRESULT SelectComplete(BSTR strPath, BSTR strSize, BSTR strMode);	
+	[id(6), helpstring("메서드 SelectComplete")] HRESULT SelectComplete(BSTR strPath, BSTR strSize, BSTR strMode, BSTR strMD5);
+	[id(7), helpstring("메서드 UpLoad")] HRESULT UpLoad(BSTR strUserID, BSTR strUserPW, BSTR strType, BSTR strIdx);
+	//20080221 파일 서버 인덱스 인자 추가, jyh
+	[id(8), helpstring("메서드 DownLoad")] HRESULT DownLoad(BSTR strUserID, BSTR strUserPW, BSTR strType, BSTR strIdx, BSTR strIdx_, BSTR strSeverIdx, BSTR strNameAuth);
+	//20071112 오픈 자료실 함수, jyh
+	[id(9), helpstring("메서드 OpenUpLoad")] HRESULT OpenUpLoad(BSTR file_name);	
+	[id(10), helpstring("메서드 OpenDownLoad")] HRESULT OpenDownLoad(BSTR file_name);
+	[id(11), helpstring("메서드 ShowDlgOpenFile")] HRESULT ShowDlgOpenFile(void);
+	[id(12), helpstring("메서드 UpdateOpenCheck")] HRESULT UpdateOpenCheck(void);
+	[id(13), helpstring("메서드 ShowDlgOpenFolder")] HRESULT ShowDlgOpenFolder(void);
+	//20071217 저작권 등록 페이지 구분으로 인한 인자 BSTR strHashIdx 추가, jyh
+	[id(14), helpstring("메서드 UpLoadHash")] HRESULT UpLoadHash(BSTR strUserID, BSTR strUserPW, BSTR strType, BSTR strIdx, BSTR strHashIdx);
+	[id(15), helpstring("메서드 VersionCheck")] HRESULT VersionCheck(void);
+	[id(16), helpstring("메서드 FileVersionCheckVista")] HRESULT FileVersionCheckVista(void);
+	[id(17), helpstring("메서드 Movie_to_Images")] HRESULT Movie_to_Images(SHORT load_count, BSTR url_domain, BSTR url_path, [out,retval] BSTR* Save_files_data);
+	[id(19), helpstring("메서드 MtoI_exe")] HRESULT MtoI_exe(BSTR Movie_filename, SHORT load_count, BSTR url_domain, BSTR url_path);
+	[id(21), helpstring("메서드 Movie_Capture")] HRESULT Movie_Capture(BSTR Movie_filename, SHORT load_count, BSTR url_domain, BSTR url_path, SHORT Image_show_info, SHORT Image_show_size, [out,retval] BSTR* Save_files_data);
+	[id(22), helpstring("method DownLoads")] HRESULT DownLoads(BSTR strUserID, BSTR strUserPW, BSTR strType, BSTR strIdx, BSTR strIdx_, BSTR strSeverIdx, BSTR strNameAuth, BSTR strFileAuth);
+};
+
+[
+	uuid(C037A762-74D9-4faf-B8E0-6F2CBEABA6CB),
+	version(1.0),
+	helpstring("FilerunWebControl 1.0 형식 라이브러리")
+]
+library WebhardWebControlLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(C037A763-74D9-4faf-B8E0-6F2CBEABA6CB),
+		helpstring("_IWebBBSEvents Interface")
+	]
+	dispinterface _IWebBBSEvents
+	{
+		properties:
+		methods:
+			[id(1)] void InstallCompleteEvent();
+			[id(2)] void UpSelectComplete(BSTR strPath, BSTR strSize, BSTR strMode, BSTR strMD5);
+	};
+	[
+		uuid(C037A764-74D9-4faf-B8E0-6F2CBEABA6CB),
+		control,
+		helpstring("Filerun Web Control")
+	]
+	coclass WebBBS
+	{
+		[default] interface IWebBBS;
+		[default, source] dispinterface _IWebBBSEvents;
+	};
+};

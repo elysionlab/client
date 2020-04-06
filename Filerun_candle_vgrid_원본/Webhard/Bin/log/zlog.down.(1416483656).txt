@@ -1,0 +1,113 @@
+*** Queue svc(3856) : Init Success!
+*** Queue svc(1580) : Init Success!
+*** Queue svc(3860) : Init Success!
+*** Queue svc(2828) : Init Success!
+*** Queue svc(1564) : Init Success!
+*** Queue svc(1572) : Init Success!
+*** Queue svc(1568) : Init Success!
+*** Queue svc(1396) : Init Success!
+*** Queue svc(2484) : Init Success!
+*** Queue svc(3840) : Init Success!
+*** Queue svc(2480) : Init Success!
+*** Queue svc(2492) : Init Success!
+*** Queue svc(2476) : Init Success!
+*** Queue svc(2472) : Init Success!
+*** Queue svc(2468) : Init Success!
+*** Queue svc(2488) : Init Success!
+*** Acceptor::mmsv_init() Success!
+*** Acceptor::open() Success!
+忙式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式忖
+弛Server Start : Success!(Thu Nov 20 2014 20:41:01.035000)
+弛Allocator Depth : 120000 
+戌式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式戎
+
+
+忙式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式忖
+弛Thu Nov 20 2014 20:41:07.034000
+弛CurrUser(0) : HighUser(0) : HashMap(0)
+弛Queue Byte(0) : Queue Count(0)
+弛Allocator (120000 F / 120000 T) : 100.00% Free
+弛PFS (0.00) : Total(0 P / 10 S)
+弛Check Valid User [ 0 complete / 0 all ] [0,0,0,0]
+弛Thu Nov 20 2014 20:41:07.034000 
+戌式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式戎
+
+忙式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式忖
+弛Thu Nov 20 2014 20:41:17.033000
+弛CurrUser(0) : HighUser(0) : HashMap(0)
+弛Queue Byte(0) : Queue Count(0)
+弛Allocator (120000 F / 120000 T) : 100.00% Free
+弛PFS (0.00) : Total(0 P / 10 S)
+弛Check Valid User [ 0 complete / 0 all ] [0,0,0,0]
+弛Thu Nov 20 2014 20:41:17.033000 
+戌式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式戎
+
+忙式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式忖
+弛Thu Nov 20 2014 20:41:27.034000
+弛CurrUser(0) : HighUser(0) : HashMap(0)
+弛Queue Byte(0) : Queue Count(0)
+弛Allocator (120000 F / 120000 T) : 100.00% Free
+弛PFS (0.00) : Total(0 P / 10 S)
+弛Check Valid User [ 0 complete / 0 all ] [0,0,0,0]
+弛Thu Nov 20 2014 20:41:27.034000 
+戌式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式戎
+
+忙式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式忖
+弛Thu Nov 20 2014 20:41:37.034000
+弛CurrUser(0) : HighUser(1) : HashMap(0)
+弛Queue Byte(0) : Queue Count(0)
+弛Allocator (120000 F / 120000 T) : 100.00% Free
+弛PFS (0.00) : Total(0 P / 10 S)
+弛Check Valid User [ 0 complete / 0 all ] [0,0,0,0]
+弛Thu Nov 20 2014 20:41:37.034000 
+戌式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式戎
+
+忙式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式忖
+弛Thu Nov 20 2014 20:41:47.034000
+弛CurrUser(0) : HighUser(1) : HashMap(0)
+弛Queue Byte(0) : Queue Count(0)
+弛Allocator (120000 F / 120000 T) : 100.00% Free
+弛PFS (0.00) : Total(0 P / 10 S)
+弛Check Valid User [ 0 complete / 0 all ] [0,0,0,0]
+弛Thu Nov 20 2014 20:41:47.034000 
+戌式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式戎
+
+忙式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式忖
+弛Thu Nov 20 2014 20:41:57.034000
+弛CurrUser(0) : HighUser(1) : HashMap(0)
+弛Queue Byte(0) : Queue Count(0)
+弛Allocator (120000 F / 120000 T) : 100.00% Free
+弛PFS (0.00) : Total(0 P / 10 S)
+弛Check Valid User [ 0 complete / 0 all ] [0,0,0,0]
+弛Thu Nov 20 2014 20:41:57.034000 
+戌式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式戎
+
+忙式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式忖
+弛Thu Nov 20 2014 20:42:07.033000
+弛CurrUser(0) : HighUser(1) : HashMap(0)
+弛Queue Byte(0) : Queue Count(0)
+弛Allocator (120000 F / 120000 T) : 100.00% Free
+弛PFS (0.00) : Total(0 P / 10 S)
+弛Check Valid User [ 0 complete / 0 all ] [0,0,0,0]
+弛Thu Nov 20 2014 20:42:07.033000 
+戌式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式戎
+
+忙式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式忖
+弛Thu Nov 20 2014 20:42:17.034000
+弛CurrUser(0) : HighUser(1) : HashMap(0)
+弛Queue Byte(0) : Queue Count(0)
+弛Allocator (120000 F / 120000 T) : 100.00% Free
+弛PFS (0.00) : Total(0 P / 10 S)
+弛Check Valid User [ 0 complete / 0 all ] [0,0,0,0]
+弛Thu Nov 20 2014 20:42:17.034000 
+戌式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式戎
+
+忙式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式忖
+弛Thu Nov 20 2014 20:42:27.033000
+弛CurrUser(0) : HighUser(1) : HashMap(0)
+弛Queue Byte(0) : Queue Count(0)
+弛Allocator (120000 F / 120000 T) : 100.00% Free
+弛PFS (0.00) : Total(0 P / 10 S)
+弛Check Valid User [ 0 complete / 0 all ] [0,0,0,0]
+弛Thu Nov 20 2014 20:42:27.033000 
+戌式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式式戎

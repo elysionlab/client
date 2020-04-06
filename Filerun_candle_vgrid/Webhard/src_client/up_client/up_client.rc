@@ -1,0 +1,316 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#include ""res\\up_client.rc2""  // Microsoft Visual C++에서 편집되지 않은 리소스\r\n"
+    "#include ""afxres.rc""         // 표준 구성 요소\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\up_client.ico"
+IDI_ICON1               ICON                    "res\\up01.ico"
+IDI_ICON2               ICON                    "res\\up02.ico"
+IDI_ICON3               ICON                    "res\\up03.ico"
+IDI_ICON4               ICON                    "res\\up04.ico"
+IDI_ICON5               ICON                    "res\\up05.ico"
+IDI_ICON6               ICON                    "res\\up06.ico"
+IDI_ICON7               ICON                    "res\\up07.ico"
+IDI_ICON8               ICON                    "res\\up08.ico"
+IDI_ICON9               ICON                    "res\\up09.ico"
+IDI_ICON10              ICON                    "res\\up10.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_UP_CLIENT_DIALOG DIALOGEX 0, 0, 535, 295
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CLASS "Filerun_class_upload"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LISTCTRL,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_SHAREIMAGELISTS | LVS_NOSORTHEADER | WS_TABSTOP,39,23,212,108,WS_EX_CLIENTEDGE
+    LTEXT           "",IDC_STATIC_TIME_USE,287,39,106,9
+    LTEXT           "",IDC_STATIC_TIME_OVER,286,51,106,9
+    LTEXT           "",IDC_STATIC_COUNT,287,88,106,9
+    LTEXT           "",IDC_STATIC_SPEED,430,50,67,13
+    LTEXT           "",IDC_STATIC_FILENAME,25,49,280,12
+    LTEXT           "",IDC_PROGRESS1,81,145,168,17
+    CONTROL         "",IDC_PROGRESS2,"msctls_progress32",0x0,87,207,80,14
+    CONTROL         "",IDC_PROGRESS3,"msctls_progress32",0x0,203,207,80,14
+END
+
+IDD_DIALOG_NOTICE DIALOGEX 0, 0, 186, 95
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_POPUP
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "",IDC_STATIC_NOTICE_INFO,19,14,148,26
+END
+
+IDD_DIALOG_SETUP DIALOGEX 0, 0, 458, 254
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_COMBO_SETUPT_1,218,66,98,63,CBS_DROPDOWNLIST | CBS_OWNERDRAWVARIABLE | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_SETUPT_2,219,82,98,69,CBS_DROPDOWNLIST | CBS_OWNERDRAWVARIABLE | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_SETUPT_3,219,98,98,59,CBS_DROPDOWNLIST | CBS_OWNERDRAWVARIABLE | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Static",IDC_STATIC_PATH,103,86,81,23,SS_PATHELLIPSIS
+END
+
+IDD_DIALOG_EXIST DIALOGEX 0, 0, 334, 135
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_POPUP
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Static",IDC_STATIC_EXIST,63,49,68,14
+    LTEXT           "Static",IDC_STATIC_EXIST2,61,29,68,14,SS_PATHELLIPSIS
+    LTEXT           "Static",IDC_STATIC_EXIST3,63,7,68,14,SS_PATHELLIPSIS
+END
+
+IDD_DIALOG_CONFIRM DIALOGEX 0, 0, 186, 95
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Static",IDC_STATIC_CONFIRM,113,27,57,24
+    CONTROL         "",IDC_STATIC_TITLE,"Static",SS_BITMAP,22,7,20,20
+END
+
+IDD_DIALOG_TRAY DIALOGEX 0, 0, 125, 38
+STYLE DS_SETFONT | WS_POPUP | WS_SYSMENU
+FONT 8, "돋움", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_PROGRESS1,"msctls_progress32",WS_BORDER | 0x1,2,24,80,7
+    LTEXT           "Static",IDC_STATIC_PERCENT,89,24,19,8
+    LTEXT           "Static",IDC_STATIC_TEXT,2,11,97,8,NOT WS_VISIBLE
+END
+
+IDD_DIALOG_SLIDE DIALOGEX 0, 0, 186, 90
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Static",IDC_STATIC1,39,28,91,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041203b5"
+        BEGIN
+            VALUE "CompanyName", "엘리시온랩"
+            VALUE "FileDescription", "파일런 업로더"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "up_client.exe"
+            VALUE "LegalCopyright", "(c) 파일런 .  All rights reserved."
+            VALUE "OriginalFilename", "up_client.exe"
+            VALUE "ProductName", "지디스크 업로더"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 949
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_UP_CLIENT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 528
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 288
+    END
+
+    IDD_DIALOG_NOTICE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_DIALOG_SETUP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 451
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 247
+    END
+
+    IDD_DIALOG_EXIST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 327
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 128
+    END
+
+    IDD_DIALOG_TRAY, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 118
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 31
+    END
+
+    IDD_DIALOG_SLIDE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 83
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_BG_MAIN      BITMAP                  "res\\Skin\\window_bg_main.bmp"
+IDB_BITMAP_BTN_ARROW_BOTTOM BITMAP                  "res\\Skin\\btn_arrow_bottom.bmp"
+IDB_BITMAP_BTN_ARROW_DOWN BITMAP                  "res\\Skin\\btn_arrow_down.bmp"
+IDB_BITMAP_BTN_ARROW_TOP BITMAP                  "res\\Skin\\btn_arrow_top.bmp"
+IDB_BITMAP_BTN_ARROW_UP BITMAP                  "res\\Skin\\btn_arrow_up.bmp"
+IDB_BITMAP_BTN_DONE_DEL BITMAP                  "res\\Skin\\btn_doneDel.bmp"
+IDB_BITMAP_BTN_SEL_DEL  BITMAP                  "res\\Skin\\btn_SelectDel.bmp"
+IDB_BITMAP_BTN_SETUP_CANCEL BITMAP                  "res\\Skin\\btn_setup_cancel.bmp"
+IDB_BITMAP_BTN_SETUP_OK BITMAP                  "res\\Skin\\btn_setup_ok.bmp"
+IDB_BITMAP_BTN_START    BITMAP                  "res\\Skin\\btn_start.bmp"
+IDB_BITMAP_BTN_STOP     BITMAP                  "res\\Skin\\btn_stop.bmp"
+IDB_BITMAP_BTN_EXIT     BITMAP                  "res\\Skin\\btn_winCLS.bmp"
+IDB_BITMAP_BTN_MINIMIZE BITMAP                  "res\\Skin\\btn_winMIN.bmp"
+IDB_BITMAP_BG_NOTICE    BITMAP                  "res\\Skin\\window_bg_notice.bmp"
+IDB_BITMAP_CHK_PROGRAM  BITMAP                  "res\\Skin\\check_close_program.bmp"
+IDB_BITMAP_CHK_SYSTEM   BITMAP                  "res\\Skin\\check_close_system.bmp"
+IDB_BITMAP_CHK_NORMAL   BITMAP                  "res\\Skin\\check_normal.bmp"
+IDB_BITMAP_PROGRESSBAR1 BITMAP                  "res\\Skin\\progress_bar1.bmp"
+IDB_BITMAP_PROGRESSBAR2 BITMAP                  "res\\Skin\\progress_bar2.bmp"
+IDB_BITMAP_BG_CONFIRM   BITMAP                  "res\\Skin\\window_bg_confirm.bmp"
+IDB_BITMAP_CHECK_EXIST_ALL BITMAP                  "res\\Skin\\check_exist_all.bmp"
+IDB_BITMAP_BTN_CONFIRM_NO BITMAP                  "res\\Skin\\btn_confirm_no.bmp"
+IDB_BITMAP_BTN_CONFIRM_YES BITMAP                  "res\\Skin\\btn_confirm_yes.bmp"
+IDB_BITMAP_CONFIRM_TITLE_4 BITMAP                  "res\\Skin\\title_confirm_04.bmp"
+IDB_BITMAP_CHK_CLOSE_COOKIE BITMAP                  "res\\Skin\\check_close_cookie.bmp"
+IDB_BITMAP_CONFIRM_TITLE_1 BITMAP                  "res\\Skin\\title_confirm_01.bmp"
+IDB_BITMAP_CONFIRM_TITLE_2 BITMAP                  "res\\Skin\\title_confirm_02.bmp"
+IDB_BITMAP_CONFIRM_TITLE_3 BITMAP                  "res\\Skin\\title_confirm_03.bmp"
+IDB_BITMAP_BTN_TRAY     BITMAP                  "res\\Skin\\btn_winTRAY.bmp"
+IDB_BITMAP_BTN_EXIT2    BITMAP                  "res\\Skin\\btn_winCLS2.bmp"
+IDB_BITMAP_BTN_ALRET_RETRY BITMAP                  "res\\skin\\btn_retry.bmp"
+IDB_BITMAP_BTN_ALRET_JUMP BITMAP                  "res\\skin\\btn_jump.bmp"
+IDB_BITMAP_BG_TRAY      BITMAP                  "res\\skin\\window_bg_tray.bmp"
+IDB_BITMAP_BG_SLIDE     BITMAP                  "res\\skin\\window_bg_slide.bmp"
+IDB_BITMAP_TRAY_PROGRESSBAR1 BITMAP                  "res\\skin\\tray_progress_bar1.bmp"
+IDB_BITMAP_TRAY_PROGRESSBAR2 BITMAP                  "res\\skin\\tray_progress_bar2.bmp"
+IDB_BITMAP_LISTHEAD     BITMAP                  "res\\skin\\listcontrolhead.bmp"
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE 18, 1
+#pragma code_page(949)
+#include "res\up_client.rc2"  // Microsoft Visual C++에서 편집되지 않은 리소스
+#include "afxres.rc"         // 표준 구성 요소
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,80 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=ks_c_5601-1987">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=arial size=+3>
+Build Log
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- Build started: Project: speed_server, Configuration: Release|Win32 -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Command Lines
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Creating temporary file "f:\project_2008\Filerun_candle_kgrid\Webhard\src_server\speed_server\Release\RSP000001.rsp" with contents
+[
+/O2 /I "../../Common" /I "../../../__Common/__unity[2]/server_speed" /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /FD /EHsc /MD /GS /Fo"Release/" /Fd"Release/vc70.pdb" /W3 /c /Wp64 /Zi /TP
+"\project_2008\Filerun_candle_kgrid\__Common\__unity[2]\server_speed\src_server.cpp"
+"\project_2008\Filerun_candle_kgrid\__Common\__unity[2]\server_speed\mmsv_User.cpp"
+"\project_2008\Filerun_candle_kgrid\__Common\__unity[2]\server_speed\mmsv_Aio_Daemon.cpp"
+"\project_2008\Filerun_candle_kgrid\__Common\__unity[2]\server_speed\mmsv_Aio_Acceptor.cpp"
+]
+Creating command line "cl.exe @f:\project_2008\Filerun_candle_kgrid\Webhard\src_server\speed_server\Release\RSP000001.rsp /nologo"
+Creating temporary file "f:\project_2008\Filerun_candle_kgrid\Webhard\src_server\speed_server\Release\RSP000002.rsp" with contents
+[
+/OUT:"../../Bin/Filerun_Speed.exe" /INCREMENTAL:NO /NOLOGO /DEBUG /PDB:"Release/speed_server.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /MACHINE:X86 ACE.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "\project_2008\Filerun_candle_kgrid\Default Include\Ace 5.4\ACE_wrappers\lib\ACE.lib"
+.\Release\mmsv_Aio_Acceptor.obj
+.\Release\mmsv_Aio_Daemon.obj
+.\Release\mmsv_User.obj
+.\Release\src_server.obj
+]
+Creating command line "link.exe @f:\project_2008\Filerun_candle_kgrid\Webhard\src_server\speed_server\Release\RSP000002.rsp"
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Output Window
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Compiling...
+src_server.cpp
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdlib.inl(87) : warning C4312: 'type cast' : conversion from 'int' to 'void *' of greater size
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdlib.inl(100) : warning C4312: 'type cast' : conversion from 'int' to 'void *' of greater size
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(221) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(254) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(285) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(675) : warning C4311: 'type cast' : pointer truncation from 'ACE_HANDLE' to 'long'
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdio.inl(643) : warning C4311: 'type cast' : pointer truncation from 'ACE_HANDLE' to 'long'
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_time.inl(414) : warning C4244: 'argument' : conversion from 'const time_t' to 'long', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\SString.i(176) : warning C4244: 'return' : conversion from '__w64 int' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\SString.i(187) : warning C4244: 'return' : conversion from '__w64 int' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\Mem_Map.i(214) : warning C4267: '=' : conversion from 'size_t' to 'ssize_t', possible loss of data
+mmsv_User.cpp
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdlib.inl(87) : warning C4312: 'type cast' : conversion from 'int' to 'void *' of greater size
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdlib.inl(100) : warning C4312: 'type cast' : conversion from 'int' to 'void *' of greater size
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(221) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(254) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(285) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(675) : warning C4311: 'type cast' : pointer truncation from 'ACE_HANDLE' to 'long'
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdio.inl(643) : warning C4311: 'type cast' : pointer truncation from 'ACE_HANDLE' to 'long'
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\Mem_Map.i(214) : warning C4267: '=' : conversion from 'size_t' to 'ssize_t', possible loss of data
+mmsv_Aio_Daemon.cpp
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdlib.inl(87) : warning C4312: 'type cast' : conversion from 'int' to 'void *' of greater size
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdlib.inl(100) : warning C4312: 'type cast' : conversion from 'int' to 'void *' of greater size
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(221) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(254) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(285) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(675) : warning C4311: 'type cast' : pointer truncation from 'ACE_HANDLE' to 'long'
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdio.inl(643) : warning C4311: 'type cast' : pointer truncation from 'ACE_HANDLE' to 'long'
+mmsv_Aio_Acceptor.cpp
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdlib.inl(87) : warning C4312: 'type cast' : conversion from 'int' to 'void *' of greater size
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdlib.inl(100) : warning C4312: 'type cast' : conversion from 'int' to 'void *' of greater size
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(221) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(254) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(285) : warning C4244: 'return' : conversion from 'intptr_t' to 'int', possible loss of data
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_unistd.inl(675) : warning C4311: 'type cast' : pointer truncation from 'ACE_HANDLE' to 'long'
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\OS_NS_stdio.inl(643) : warning C4311: 'type cast' : pointer truncation from 'ACE_HANDLE' to 'long'
+..\..\..\Default Include\ACE 5.4\ACE_wrappers\ace\Mem_Map.i(214) : warning C4267: '=' : conversion from 'size_t' to 'ssize_t', possible loss of data
+Generating Code...
+Linking...
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Results
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+Build log was saved at "file://f:\project_2008\Filerun_candle_kgrid\Webhard\src_server\speed_server\Release\BuildLog.htm"
+speed_server - 0 error(s), 34 warning(s)</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=arial size=+2>
+</font></table></body></html>

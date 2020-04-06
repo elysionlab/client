@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WebControl", "src_webcontrol\WebControl.vcproj", "{5AD3CFF8-495B-4701-909C-4D3A92D20DFE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WebControlPS", "src_webcontrol\WebControlPS.vcproj", "{96CBD411-7129-49D5-BD91-C2B3B56D8B47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AD3CFF8-495B-4701-909C-4D3A92D20DFE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5AD3CFF8-495B-4701-909C-4D3A92D20DFE}.Debug|Win32.Build.0 = Debug|Win32
+		{5AD3CFF8-495B-4701-909C-4D3A92D20DFE}.Release|Win32.ActiveCfg = Release|Win32
+		{5AD3CFF8-495B-4701-909C-4D3A92D20DFE}.Release|Win32.Build.0 = Release|Win32
+		{96CBD411-7129-49D5-BD91-C2B3B56D8B47}.Debug|Win32.ActiveCfg = Debug|Win32
+		{96CBD411-7129-49D5-BD91-C2B3B56D8B47}.Debug|Win32.Build.0 = Debug|Win32
+		{96CBD411-7129-49D5-BD91-C2B3B56D8B47}.Release|Win32.ActiveCfg = Release|Win32
+		{96CBD411-7129-49D5-BD91-C2B3B56D8B47}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

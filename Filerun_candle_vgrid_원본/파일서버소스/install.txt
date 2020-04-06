@@ -1,0 +1,25 @@
+/usr/bin/rdate -s time.bora.net && /sbin/clock -w
+
+/usr/sbin/useradd -d /data/files -u 2000 a0
+/usr/sbin/useradd -d /data/files -u 2001 -g 2000 a1
+/usr/sbin/useradd -d /data/files -u 2002 -g 2000 a2
+/usr/sbin/useradd -d /data/files -u 2011 -g 2000 a3
+/usr/sbin/useradd -d /data/files -u 2012 -g 2000 a4
+echo "v3460a39f59e" | passwd --stdin a0
+echo "v3460a39f59e" | passwd --stdin a1
+echo "v3460a39f59e" | passwd --stdin a2
+echo "v3460a39f59e" | passwd --stdin a3
+echo "v3460a39f59e" | passwd --stdin a4
+chmod 770 /data/files
+chown a0:a0 /data/files
+yum install proftpd-1.2.10-1.i686.rpm
+mv /etc/proftpd.conf /etc/proftpd.conf_org
+cp proftpd.conf /etc/
+mkdir -p /usr/local/storage
+cp manager /usr/local/storage
+cp sh.manager /usr/local/storage
+/etc/rc.d/init.d/proftpd start
+echo "*/1 * * * * /usr/local/storage/sh.manager " > /tmp/manager.tmp
+crontab -l >> /tmp/manager.tmp
+crontab /tmp/manager.tmp
+rm -f /tmp/manager.tmp

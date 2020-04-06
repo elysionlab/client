@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WebhardWebControl", "WebhardWebControl\WebhardWebControl.vcproj", "{0DDD32DC-D2BE-47A8-95BF-26175A992971}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WebhardWebControlPS", "WebhardWebControl\WebhardWebControlPS.vcproj", "{82D3AD94-F1DF-4F91-A862-C141E0CDB8AC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0DDD32DC-D2BE-47A8-95BF-26175A992971} = {0DDD32DC-D2BE-47A8-95BF-26175A992971}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DDD32DC-D2BE-47A8-95BF-26175A992971}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0DDD32DC-D2BE-47A8-95BF-26175A992971}.Debug|Win32.Build.0 = Debug|Win32
+		{0DDD32DC-D2BE-47A8-95BF-26175A992971}.Release|Win32.ActiveCfg = Release|Win32
+		{0DDD32DC-D2BE-47A8-95BF-26175A992971}.Release|Win32.Build.0 = Release|Win32
+		{82D3AD94-F1DF-4F91-A862-C141E0CDB8AC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{82D3AD94-F1DF-4F91-A862-C141E0CDB8AC}.Release|Win32.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

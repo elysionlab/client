@@ -1,0 +1,2 @@
+*** Acceptor::mmsv_init() Success!
+*** Acceptor::open() Success!
